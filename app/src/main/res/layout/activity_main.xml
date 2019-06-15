@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/introScreen"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/backgroundimagelogo"
+        android:layout_width="394dp"
+        android:layout_height="576dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/shepherdlogoorange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/introScreenlinearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/introScreenlinearLayout"
+        android:layout_width="405dp"
+        android:layout_height="611dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/welcome_msg"
+            android:layout_width="360dp"
+            android:layout_height="142dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/intro_massage"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="25dp"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/txtLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/txtContinueLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginStart="16dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/currentuserid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="user id" />
+
+        <Button
+            android:id="@+id/senddatabtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sned data to db" />
+
+        <Button
+            android:id="@+id/readdatabtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="read from db" />
+
+        <Button
+            android:id="@+id/btnContinueLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="Continuous Location"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="One time location"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            tools:visibility="visible">
+
+            <CheckBox
+                android:id="@+id/show_again_cbx"
+                android:layout_width="19dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/enable_on_next_run"
+                android:visibility="visible"
+                tools:text="Stop show Welcome"
+                tools:visibility="visible" />
+
+            <Button
+                android:id="@+id/start_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text="@string/StartBtn"
+                android:visibility="visible"
+                tools:visibility="visible" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

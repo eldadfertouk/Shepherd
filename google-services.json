@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "513399477082",
+    "firebase_url": "https://shepherd-aabde.firebaseio.com",
+    "project_id": "shepherd-aabde",
+    "storage_bucket": "shepherd-aabde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513399477082:android:96a99790517622a4",
+        "android_client_info": {
+          "package_name": "FinalProject.Shepherd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513399477082-dso98a818ajdi6k8uu8gv7fde9a5g118.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhfvigEsgfkCnS-VHeQ_btWU2tpVWLMHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513399477082-dso98a818ajdi6k8uu8gv7fde9a5g118.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

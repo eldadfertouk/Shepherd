@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "219138598896",
+    "firebase_url": "https://travelingroup-318f6.firebaseio.com",
+    "project_id": "travelingroup-318f6",
+    "storage_bucket": "travelingroup-318f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219138598896:android:0fe261d8bd738012",
+        "android_client_info": {
+          "package_name": "com.example.eldadfertouk.travelingingroup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219138598896-kvd89idao64hkvmlffec1uvj5c4uiqj3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eldadfertouk.travelingingroup",
+            "certificate_hash": "996ac985c8c72a4da89ed7e41337a63b87152d5f"
+          }
+        },
+        {
+          "client_id": "219138598896-9t5hodred4km85dru2amm0f5319ughf0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcnXbyPWrtwxzDuj8Ctq-3Uz8I0WxoQC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219138598896-9t5hodred4km85dru2amm0f5319ughf0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219138598896:android:b023e5b2e20ce5e4",
+        "android_client_info": {
+          "package_name": "com.example.shepherd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219138598896-rc2mriq7q44b9usrrhllgq07fo3svadv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shepherd",
+            "certificate_hash": "996ac985c8c72a4da89ed7e41337a63b87152d5f"
+          }
+        },
+        {
+          "client_id": "219138598896-9t5hodred4km85dru2amm0f5319ughf0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcnXbyPWrtwxzDuj8Ctq-3Uz8I0WxoQC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219138598896-9t5hodred4km85dru2amm0f5319ughf0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219138598896:android:66ecaffc9fbacaf4",
+        "android_client_info": {
+          "package_name": "travel.in.group"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219138598896-9t5hodred4km85dru2amm0f5319ughf0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcnXbyPWrtwxzDuj8Ctq-3Uz8I0WxoQC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219138598896-9t5hodred4km85dru2amm0f5319ughf0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
